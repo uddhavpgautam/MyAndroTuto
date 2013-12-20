@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".ActivityNewsReader"
+    >
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="2dp"
+	    android:background="@drawable/rectangle_gray"
+	    >
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:textColor="@color/black"
+	    android:gravity="center_horizontal"
+	    android:text="@string/title_news_reader"
+	    android:background="#749474"
+        />
+   
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tvTitle"
+        android:baselineAligned="false"
+        android:background="@drawable/rectangle_gray"
+        > 
+        <ListView 
+        	android:id="@+id/lvSiteList"
+        	android:layout_width="0dp"
+        	android:layout_height="fill_parent"
+        	android:layout_weight="0.3"
+        	android:padding="5dp"
+        	android:background="@drawable/rectangle"
+        	/>
+            
+        <FrameLayout
+            android:id="@+id/flNewsBox"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            >
+        </FrameLayout>
+        </LinearLayout>
+</RelativeLayout>
+</RelativeLayout>
