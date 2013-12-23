@@ -1,2 +1,3 @@
 Never try to write code(except variable decleration inside class and outside function body.
-
+When function demands String/Int for determining what to you, You can mistakely give some variable of the same type with wrong data in it. This leads to logical error.
+Sometimes when the Wrong library gets imported, you may not be able to find desired suggesstions, and hence leading to error with confusion state.
