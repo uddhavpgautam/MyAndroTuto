@@ -1,3 +1,16 @@
 Never try to write code(except variable decleration inside class and outside function body.
 When function demands String/Int for determining what to you, You can mistakely give some variable of the same type with wrong data in it. This leads to logical error.
 Sometimes when the Wrong library gets imported, you may not be able to find desired suggesstions, and hence leading to error with confusion state.
+
+Writing following line between <activity> tag in Manifast makes that activity run as 1st screen
+<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+Google Developer Console for API key
+
+https://cloud.google.com/console?redirected=true#/project/758191318991?redirected=true
+http://www.vogella.com/articles/AndroidGoogleMaps/article.html
