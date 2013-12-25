@@ -11,6 +11,12 @@ Writing following line between <activity> tag in Manifast makes that activity ru
 
 
 Google Developer Console for API key
-
 https://cloud.google.com/console?redirected=true#/project/758191318991?redirected=true
 http://www.vogella.com/articles/AndroidGoogleMaps/article.html
+
+
+SuperNotCalledException      haha Madness of java
+
+dp is Density independent pixel(basic unit of Masurement)
+layout_weight is the % area of parent that layout will cover. 
+Hence they are different
