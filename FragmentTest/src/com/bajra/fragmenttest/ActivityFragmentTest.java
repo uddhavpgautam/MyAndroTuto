@@ -9,11 +9,19 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class ActivityFragmentTest extends FragmentActivity {
+public class ActivityFragmentTest extends FragmentActivity implements FragmentOne.MsgPassingInterface{
 	FragmentManager fragmentManager;
 	FragmentTransaction fragmentTransaction;
 	Button btnChangeFrag;
+	FragmentOne fragOne;
+	FragmentTwo fragTwo;
 	int count;
+	
+	public void sendToParent(String msg) {
+		System.out.println(msg + "Received from parent");
+		fragTwo.setTheMessage(msg);
+	}
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -28,8 +36,8 @@ public class ActivityFragmentTest extends FragmentActivity {
 			@Override
 			public void onClick(View v) {
 				count ++;
-				FragmentOne fragOne = new FragmentOne();
-				FragmentTwo fragTwo = new FragmentTwo();
+				fragOne = new FragmentOne();
+				fragTwo = new FragmentTwo();
 				FragmentThree fragThree = new FragmentThree();
 				
 				fragmentTransaction = fragmentManager.beginTransaction();
