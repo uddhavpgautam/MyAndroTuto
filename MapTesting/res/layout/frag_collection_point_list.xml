@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
      >
-    <TextView 
-        android:layout_width="wrap_content"
-       	android:layout_height="wrap_content"
-        android:text="This is Collection Point ListView"
-        android:textColor="#FFFFFF"
-        android:background="@android:color/background_dark"
-        />
+    <ListView 
+        android:id="@+id/lvCities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        
+    </ListView>
 
 </LinearLayout>
