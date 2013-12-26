@@ -28,11 +28,12 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090004;
-        public static final int btnChangeFrag=0x7f090000;
-        public static final int flFragOne=0x7f090002;
-        public static final int flFragTwo=0x7f090003;
-        public static final int frag_container=0x7f090001;
+        public static final int action_settings=0x7f090005;
+        public static final int btnChangeFrag=0x7f090001;
+        public static final int flFragOne=0x7f090003;
+        public static final int flFragTwo=0x7f090004;
+        public static final int frag_container=0x7f090002;
+        public static final int tvActivityTitle=0x7f090000;
     }
     public static final class layout {
         public static final int activity_activity_fragment_test=0x7f030000;

@@ -9,6 +9,12 @@
     tools:context=".ActivityFragmentTest" 
     android:orientation="vertical"
     >
+    <TextView 
+        android:id="@+id/tvActivityTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Default Title"
+        />
 	<Button 
 	    android:id="@+id/btnChangeFrag"
 	    android:layout_width="fill_parent"

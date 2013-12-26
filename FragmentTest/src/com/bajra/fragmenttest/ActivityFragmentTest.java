@@ -48,5 +48,9 @@ public class ActivityFragmentTest extends FragmentActivity {
 		});
 		
 	}
+	@Override
+	public void onBackPressed(){
+		fragmentManager.popBackStack();
+	}
 
 }

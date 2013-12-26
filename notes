@@ -20,3 +20,9 @@ SuperNotCalledException      haha Madness of java
 dp is Density independent pixel(basic unit of Masurement)
 layout_weight is the % area of parent that layout will cover. 
 Hence they are different
+
+
+Error on xml such as layout and AndroidManifast case R.java to not generate and error  R can't be resulved on project. Be aware
+
+From Fragment we can change the parent Activitiy's View simply by
+View view = (View)getActivity().findViewById(R.id.view);
