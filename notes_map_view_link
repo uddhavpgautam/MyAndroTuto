@@ -1,0 +1,14 @@
+About MapView from Google Map V1
+https://developers.google.com/maps/documentation/android/v1/hello-mapview
+
+FragmentActivity
+http://developer.android.com/reference/android/support/v4/app/FragmentActivity.html
+
+MapActivity
+https://developers.google.com/maps/documentation/android/v1/reference/com/google/android/maps/MapActivity
+
+MapView
+https://developers.google.com/maps/documentation/android/v1/reference/com/google/android/maps/MapView
+
+MapView without MapActivity
+http://stackoverflow.com/questions/5109336/mapview-in-a-fragment-honeycomb
