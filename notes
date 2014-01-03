@@ -26,3 +26,10 @@ Error on xml such as layout and AndroidManifast case R.java to not generate and 
 
 From Fragment we can change the parent Activitiy's View simply by
 View view = (View)getActivity().findViewById(R.id.view);
+
+android manages the Image Aspect Ratio, You just have to give image as src for
+ ImageView or on ImageButton and then you can set width/height as your wish.
+
+doing  putString to intent  writes the provided key-value pair on bundle associated with intent
+Hence you have to  do  intent.getExtra() /* fetch bundle */ and then  bundle.getString(key)
+even if you haven't  done intent.putExtra(bundle) on sending side.
