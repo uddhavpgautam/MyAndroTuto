@@ -34,9 +34,11 @@ doing  putString to intent  writes the provided key-value pair on bundle associa
 Hence you have to  do  intent.getExtra() /* fetch bundle */ and then  bundle.getString(key)
 even if you haven't  done intent.putExtra(bundle) on sending side.
 
+QuiltView with pull-to-refresh
+http://stackoverflow.com/questions/20627268/quiltview-gallery-with-pull-to-refresh-in-android
+
+
 pulltorefresh staggered GridView
 http://stackoverflow.com/questions/18315493/set-up-pull-to-refresh-for-staggered-grid-view
 https://github.com/GoMino/Android-PullToRefresh
-
-QuiltView with pull-to-refresh
-http://stackoverflow.com/questions/20627268/quiltview-gallery-with-pull-to-refresh-in-android
+https://github.com/GoMino/StaggeredGridView/blob/master/demo/src/com/mino/staggeredgridview/MainActivity.java
