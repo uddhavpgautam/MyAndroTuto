@@ -46,3 +46,15 @@ https://github.com/GoMino/StaggeredGridView/blob/master/demo/src/com/mino/stagge
 
 https://github.com/bulletnoid/StaggeredGridView.git
 Try this one too
+
+
+if requirement
+--- some views at top with editText too
+--- ScrollView at middle occupying remaing space
+--- some buttons at bottom(which you want to be always at bottom)
+ # it is hard be fixed by layout_alignParentBottom="true" or any other means
+ # as softkeybord drags that bottom buttons to top and make ui Ugly on small screen
+But 
+ # add attribute android:windowSoftInputMode="adjustPan"   on your <activity> element of your Manifast.xml then problem will be solved.
+
+
